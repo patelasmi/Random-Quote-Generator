@@ -1,0 +1,151 @@
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(https://unsplash.it/1080/?random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.85;
+  font-family: Handlee;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  width: 80%;
+  min-height: 300px;
+  opacity: 0.8;
+  border-radius: 30px;
+  box-sizing: border-box;
+  transform: translate(-50%, 20%);
+  background-color: #dee2e8;
+}
+.quotes {
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: alice;
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #5c8ad6;
+  float: right;
+  color: white;
+  width: 15%;
+  margin-right: 30px;
+}
+.fa-quote-right {
+  float: right;
+  background: #5c8ad6;
+  color: white;
+  width: 15%;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+  @media screen and (max-width: 600px){
+    	.container{
+    		width: 90%;
+        position: absolute;
+        opacity: 0.8;
+        border-radius: 30px;
+        box-sizing: border-box;
+        transform: translate(-50%, 20%);
+        background-color: #dee2e8;
+    	}
+    	 .quote-text {
+        font-size: 20px;
+      }
+
+    @media screen and (max-width: 268px) {
+    	h1{
+    		font-size: 40px;
+    	}
+       .fa {
+        padding: 10px;
+       width: 70px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .fa-twitter {
+      background: #5c8ad6;
+     float: right;
+     color: white;
+      width: 25%;
+      
+}
+.fa-quote-right {
+  float: right;
+  background: #5c8ad6;
+  color: white;
+  width: 25%;
+  
+  margin-bottom: 10px;
+  }
+}
+   
+    @media screen and (max-width: 450px){
+      .container {
+  position: absolute;
+  left: 50%;
+  width: 80%;
+  min-height: 300px;
+  opacity: 0.8;
+  border-radius: 30px;
+  box-sizing: border-box;
+  transform: translate(-50%, 2%);
+  background-color: #dee2e8;
+}
+      body{
+        background-repeat:no-repeat;
+        background-size:170%;
+      }
+    	h1{
+    		font-size: 30px;
+    	}
+     .fa {
+        padding: 10px;
+       width: 70px;
+        text-align: center;
+        text-decoration: none;
+      }
+      .fa-twitter {
+      background: #5c8ad6;
+     float: right;
+     color: white;
+      width: 25%;
+      margin-right: 15px;
+}
+.fa-quote-right {
+  float: right;
+  background: #5c8ad6;
+  color: white;
+  width: 25%;
+  margin-right:90px;
+  margin-bottom: 10px;
+  }
+}
+   
+      
